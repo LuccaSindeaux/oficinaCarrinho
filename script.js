@@ -84,7 +84,7 @@ function renderizarProdutosPrincipal(produtos) {
     <h3>${prod.nome}</h3>
     <p>${prod.descricao}</p>
     <p>R$ ${prod.preco.toFixed(2)}</p>
-    <button onclick="adcionarAoCarrinho('${prod.id}')">Adicionar ao Carrinho</button>
+    <button onclick="adicionarAoCarrinho('${prod.id}')">Adicionar ao Carrinho</button>
     `;
     lista.appendChild(li);
 
